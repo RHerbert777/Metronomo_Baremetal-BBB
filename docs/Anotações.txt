@@ -1,0 +1,39 @@
+"Nunca destranque a porta antes de prender os cachorros".
+"Nunca alimente demais o cachoro senão ele morre de tanto comer"
+tftpboot 0x80000000 download.bin
+
+GPIO_LEDS:
+BLOCO coluna
+LED0 P8.3  GPIO1_6 / gpmc_ad6
+LED1 P8.5  GPIO1_2 / gpmc_ad2
+LED2 P8.16  GPIO1_14 / gpmc_ad14
+LED3 P8.26  GPIO1_29 / gpmc_csn0
+LED4 P8.12 GPIO1_12 / gpmc_ad12
+BLOCO simples
+LED5 P9.15 GPIO1_16 / gpmc_a0
+
+BUTTONS:
+BUTTON SET   P8.18 gpio2_1  gpmc_clk_mux0
+BUTTON UP    P8.10 gpio2_4  gpmc_wen
+BUTTON DOWN  P9.12 gpio1_31 gpmc_csn2
+BUTTON START P8.15 gpio1_1  gpmc_ad1
+
+BUZZER:
+P9.14
+
+DISPLAY
+CLK P9.16 gpio1_19  gpmc_a3
+DIO P9.23 gpio1_17 gpmc_a1
+
+PWM: TBCTR inicia a contagem, pino em baixo chegamos no CMPA configurmaos o dutycicle para tempo/2 logo andaremos mais
+metade do tempo em sinal alto ao chegar no topo resetamos a contagem finalizando o periodo, se reduzirmos o TBCTR conse-
+quentemente almentamos a frequencia.
+
+TBCTR:  Contador
+TBPRD:  Teto contagem
+CMPA:   conter compare- configuração do durycicle.
+
+AQCTLA: Diz o comportamento da onda.
+TBCTL:  tipo de contagem crescente decrescente
+
+Display:
