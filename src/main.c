@@ -9,8 +9,8 @@
  ** Descrição: Implementação de um metronomo utilizando por musicos para a
  * contagem de tempos e compassos desenvolvido
  ** na disciplina de Tecnicas de programação para sistemas embarcados - (TPSE1)
- * do professor Francisco Helder Candido
- ** dos Santos Filho utilizando a beagle bone black em bare metal.
+ * do professor Francisco Helder Candido dos Santos Filho 
+ ** utilizando a beagle bone black em bare metal.
  *******************************************************/
 
 // Tempos e compasos
