@@ -5,7 +5,7 @@ Projeto desenvolvido na disciplina de TPSE1, onde foi construído um metrônomo 
 
 ## 📄 Relatório Técnico Completo
 
-🔗 [Acessar e Baixar o Relatório do Projeto] (./docs/Metronomo_BBB.pdf)
+🔗 [Acessar e Baixar o Relatório do Projeto](./docs/Metronomo_BBB.pdf)
 
 ---
 
