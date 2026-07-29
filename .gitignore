@@ -1,0 +1,13 @@
+# Arquivos de objeto (gerados antes da linkagem)
+*.o
+
+# Arquivos de saída padrão do compilador GCC
+*.out
+
+# Nome dos seus executáveis finais 
+# (Como no Linux eles não têm extensão .exe, você deve colocar o nome exato do arquivo gerado)
+app_baremetal
+
+# Arquivos temporários gerados pelo editor nano ou sistema
+*~
+.DS_Store
